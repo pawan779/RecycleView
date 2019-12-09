@@ -19,10 +19,18 @@ private RecyclerView recyclerView;
         recyclerView=findViewById(R.id.recycleView);
 
         List<contracts> contractsList=new ArrayList<>();
-        contractsList.add(new contracts("Ronaldo","8324732784732",R.drawable.ronaldo));
-        contractsList.add(new contracts("Messi","3567432i483",R.drawable.messi));
-        contractsList.add(new contracts("Neymar","63646327",R.drawable.neymar));
-
+        contractsList.add(new contracts("Ronaldo","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","22:00",R.drawable.ronaldo));
+        contractsList.add(new contracts("Messi","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","21:00",R.drawable.messi));
+        contractsList.add(new contracts("Neymar","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","14:00",R.drawable.neymar));
+        contractsList.add(new contracts("Ronaldo","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","22:00",R.drawable.ronaldo));
+        contractsList.add(new contracts("Messi","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","21:00",R.drawable.messi));
+        contractsList.add(new contracts("Neymar","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","14:00",R.drawable.neymar));
+        contractsList.add(new contracts("Ronaldo","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","22:00",R.drawable.ronaldo));
+        contractsList.add(new contracts("Messi","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","21:00",R.drawable.messi));
+        contractsList.add(new contracts("Neymar","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","14:00",R.drawable.neymar));
+        contractsList.add(new contracts("Ronaldo","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","22:00",R.drawable.ronaldo));
+        contractsList.add(new contracts("Messi","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","21:00",R.drawable.messi));
+        contractsList.add(new contracts("Neymar","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","14:00",R.drawable.neymar));
 
 
         contactAdapter contactAdapter=new contactAdapter(this,contractsList);

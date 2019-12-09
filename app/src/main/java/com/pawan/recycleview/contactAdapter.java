@@ -38,7 +38,8 @@ List<contracts>contractsList;
         contracts contracts=contractsList.get(position);
         holder.imgProfile.setImageResource(contracts.getImageId());
         holder.tvName.setText(contracts.getName());
-        holder.tvPhone.setText(contracts.getPhoneNo());
+        holder.tvMessage.setText(contracts.getMessage());
+        holder.tvTime.setText(contracts.getTime());
 
     }
 
@@ -49,13 +50,14 @@ List<contracts>contractsList;
 
     public class ContactsViewHolder extends RecyclerView.ViewHolder{
         CircleImageView imgProfile;
-        TextView tvName,tvPhone;
+        TextView tvName,tvMessage,tvTime;
 
         public ContactsViewHolder(@NonNull View itemView) {
             super(itemView);
             imgProfile=itemView.findViewById(R.id.ronaldo);
             tvName=itemView.findViewById(R.id.tvName);
-            tvPhone=itemView.findViewById(R.id.tvPhone);
+            tvMessage=itemView.findViewById(R.id.tvMessage);
+            tvTime=itemView.findViewById(R.id.tvTime);
         }
     }
 }

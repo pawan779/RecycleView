@@ -4,12 +4,14 @@ package com.pawan.recycleview;
 
 public class contracts {
     private String name;
-    private String phoneNo;
+    private String message;
+    private String time;
     private int imageId;
 
-    public contracts(String name, String phoneNo, int imageId) {
+    public contracts(String name, String message, String time,int imageId) {
         this.name = name;
-        this.phoneNo = phoneNo;
+        this.message = message;
+        this.time=time;
         this.imageId = imageId;
     }
 
@@ -21,13 +23,23 @@ public class contracts {
         this.name = name;
     }
 
-    public String getPhoneNo() {
-        return phoneNo;
+    public String getMessage() {
+        return message;
     }
 
-    public void setPhoneNo(String phoneNo) {
-        this.phoneNo = phoneNo;
+    public void setMessage(String message) {
+        this.message = message;
     }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+
 
     public int getImageId() {
         return imageId;
