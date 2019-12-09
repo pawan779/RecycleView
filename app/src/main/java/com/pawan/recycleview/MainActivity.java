@@ -23,6 +23,8 @@ private RecyclerView recyclerView;
         contractsList.add(new contracts("Messi","3567432i483",R.drawable.messi));
         contractsList.add(new contracts("Neymar","63646327",R.drawable.neymar));
 
+
+
         contactAdapter contactAdapter=new contactAdapter(this,contractsList);
         recyclerView.setAdapter(contactAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
